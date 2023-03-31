@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Food Calories calculator</title>
+</head>
+<body>
+    <form>
+        <h1 >Calories Value of what you ate or you wanna eat !</h1>
+            <br><br><br>
+            
+            <h2>Choose what you want  :</h2>
+            <table class="myTable"> 
+                <tr>
+                    <td><input id="painID" type="checkbox"></td> 
+                    <td><label for="painID">Bread :</label></td>
+                    <td><input id="painTXT" type="text"></td> 
+                    <td><label for="">Unity </label></td>
+                </tr>
+                <tr>
+                    <td><input id="viandeID" type="checkbox"> </td>
+                    <td><label for="viandeID">Meat :</label></td>
+                    <td><input id="viandeTXT" type="text"></td> 
+                    <td><label for="">gram(s) </label></td>
+                </tr>
+                <tr>
+                    <td><input id="legumeID" type="checkbox"></td> 
+                    <td><label for="legumeID">Vegetables :</label></td>
+                    <td><input id="legumeTXT" type="text"></td> 
+                    <td><label for="">gram(s) </label> <br></td>
+                </tr>
+                    <tr>
+                        <td><input id="bananeID" type="checkbox"></td> 
+                        <td><label for="bananeID">Banana :</label></td>
+                        <td><input id="bananeTXT" type="text"></td> 
+                        <td><label for="">Unity </label> <br></td>
+                    </tr>
+                    <tr>
+                        <td><input id="pommeID" type="checkbox"> </td> 
+                        <td><label for="pommeID">Apple :</label></td>
+                        <td><input id="pommeTXT" type="text"></td> 
+                        <td><label for="">Unity </label> <br></td>
+                    </tr>
+                    <tr>
+                        <td><input id="yaourtID" type="checkbox">  </td> 
+                        <td><label for="yaourtID">Yogurt :</label></td>
+                        <td><input id="yaourtTXT" type="text"> </td> 
+                        <td><label for="">Unity </label></td>
+                    </tr>
+            </table>
+             <br>
+            <br> 
+            <label for="" id="errorLab" style="color:red;"></label> <br>
+            <div class="divBTN">
+                <input type="button" value="Calculer" id="calculerBTN" style="margin-left: 90px;"><br>
+            </div>
+            <label for="">La valeur énérgétique de votre repas est : <input type="text" id="resultFinal" disabled>  KCalories </input>  
+            <br>
+            <label id="copyright" >Made by Badr El Rhazi (Catch me if you can ! Hahahaha)</label>
+    </form>
+    <script src="main.js"></script>
+</body>
+</html>
